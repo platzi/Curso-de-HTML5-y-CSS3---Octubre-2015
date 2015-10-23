@@ -25,5 +25,11 @@ header img {
     display: block;
 }
 
+img {
+    width: 100%
+}
 
-
+.float {
+    display: inline;
+    max-width: 15%;
+}
