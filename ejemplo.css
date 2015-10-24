@@ -1,0 +1,37 @@
+header, footer {
+  background-color: #282828;
+  position: fixed;
+  padding: 20px 0;
+  box-sizing: border-box;
+  color: #c3c1c1;
+  width: 100%; }
+
+.layout_a {
+  color: #c3c1c1; }
+  .layout_a:hover {
+    text-decoration: underline;
+    color: #FFF;
+    background-color: red;
+    border: 1px solid blue;
+    font-size: 20px; }
+
+header {
+  top: 0; }
+
+footer {
+  bottom: 0; }
+
+header img {
+  width: 250px;
+  display: block; }
+
+img {
+  width: 100%; }
+
+.same-height {
+  max-height: 154px;
+  overflow: hidden; }
+
+.float {
+  display: inline;
+  max-width: 15%; }

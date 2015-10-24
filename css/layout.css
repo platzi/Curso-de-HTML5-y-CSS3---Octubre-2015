@@ -13,6 +13,11 @@ header, footer {
     color: #c3c1c1;
 }
 
+.layout_a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
 header {
     top: 0;
 }

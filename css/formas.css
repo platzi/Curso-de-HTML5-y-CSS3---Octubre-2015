@@ -8,6 +8,7 @@
     -webkit-border-radius: 5px;
     width: 100%;
     margin-right: 10px;
+    transition: all 500ms linear;
 }
 
 .boton:hover {
