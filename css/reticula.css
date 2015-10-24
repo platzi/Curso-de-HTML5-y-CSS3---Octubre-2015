@@ -33,6 +33,10 @@
   margin-left: -1%;
 }
 
+.row + .row {
+  margin-bottom: 10px;
+}
+
 .row.reverse {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;

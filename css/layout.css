@@ -29,6 +29,11 @@ img {
     width: 100%
 }
 
+.same-height {
+    max-height: 154px;
+    overflow: hidden;
+}
+
 .float {
     display: inline;
     max-width: 15%;

@@ -1,15 +1,32 @@
 /* Editorial */
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #636363;
 }
 
 a {
     text-decoration: none;
 }
 
-ol {
-    list-style: decimal;
+ol li {
+    counter-increment: step-counter;
+}
+
+ol li::before {
+    content: counter(step-counter);
+    display: inline;
 }
