@@ -43,3 +43,7 @@ img {
     display: inline;
     max-width: 15%;
 }
+section.content{
+    background: blue;
+    margin: 0 auto;
+}
